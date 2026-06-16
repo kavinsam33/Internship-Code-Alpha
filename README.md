@@ -1,55 +1,40 @@
-CGPA Calculator
+CGPA Calculator in C++
+📌 Project Description
 
-A simple CGPA (Cumulative Grade Point Average) Calculator that helps students calculate their overall academic performance based on grades and credit hours.
+The CGPA Calculator is a C++ console application that helps students calculate their Semester GPA and Overall CGPA based on course grades and credit hours.
 
-Features
-Calculate Semester GPA (SGPA)
-Calculate Cumulative GPA (CGPA)
-Support for multiple subjects and semesters
-User-friendly interface
-Instant calculation and result display
-How CGPA is Calculated
-
-CGPA is calculated using the formula:
-
-[
-CGPA = \frac{\sum (Grade\ Points \times Credits)}{\sum Credits}
-]
-
-Where:
-
-Grade Points = Numeric value assigned to a grade
-Credits = Credit hours for a subject
-Installation
+🚀 Features
+Enter the number of courses.
+Input grades and credit hours for each course.
+Calculate total grade points and total credits.
+Display Semester GPA and Overall CGPA.
+User-friendly console interface.
+🛠️ Technologies Used
+C++
+Object-Oriented Programming (OOP)
+Standard Template Library (STL)
+📂 Project Structure
+CGPA-Calculator/
+│── main.cpp
+│── README.md
+▶️ How to Run
 Clone the repository:
-git clone https://github.com/your-username/cgpa-calculator.git
-Navigate to the project directory:
-cd cgpa-calculator
-Run the application:
-# Example for Python
-python app.py
-Usage
-Enter the number of subjects.
-Provide credits and grade points for each subject.
-Click Calculate.
-View your SGPA/CGPA instantly.
-Example
-Subject	Credits	Grade Point
-Math	4	9
-Physics	3	8
-Chemistry	3	10
+git clone https://github.com/your-username/CGPA-Calculator.git
+Compile the program:
+g++ main.cpp -o cgpa
+Run the executable:
+./cgpa
+📸 Sample Output
+Enter number of courses: 5
+Enter Grade and Credit for each course...
+Semester GPA: 8.75
+Overall CGPA: 8.62
+🎯 Learning Outcomes
+Arrays and loops in C++
+Functions and classes
+Mathematical calculations
+User input handling
+👨‍💻 Author
 
-CGPA = (4×9 + 3×8 + 3×10) / (4+3+3) = 9.0
-
-Technologies Used
-HTML
-CSS
-JavaScript
-Future Enhancements
-Semester-wise CGPA tracking
-Grade conversion system
-PDF report generation
-Data persistence using local storage or database
-Contributing
-
-Contributions are welcome. Feel free to fork the repository and submit a pull request.
+Kavin Sambasivam
+CodeAlpha C++ Programming Internship
