@@ -34,7 +34,56 @@ Arrays and loops in C++
 Functions and classes
 Mathematical calculations
 User input handling
+
 👨‍💻 Author
 
 Kavin Sambasivam
 CodeAlpha C++ Programming Internship
+
+Login and Registration System in C++
+📌 Project Description
+
+This project is a simple Login and Registration System developed in C++. It allows users to register with a username and password, log in using stored credentials, and recover forgotten passwords.
+
+🚀 Features
+User Registration
+User Login Authentication
+Password Recovery
+File Handling for Data Storage
+Simple Console-Based Interface
+🛠️ Technologies Used
+C++
+File Handling
+Object-Oriented Programming (OOP)
+📂 Project Structure
+Login-Registration-System/
+│── main.cpp
+│── README.md
+▶️ How to Run
+Clone the repository:
+git clone https://github.com/your-username/Login-Registration-System.git
+Compile the program:
+g++ main.cpp -o login
+Run the executable:
+./login
+📸 Sample Output
+1. Login
+2. Register
+3. Forgot Password
+Enter Choice: 2
+Registration Successful!
+
+Enter Username: admin
+Enter Password: ****
+Login Successful!
+🎯 Learning Outcomes
+File handling in C++
+Authentication system design
+Data storage and retrieval
+Menu-driven programming
+👨‍💻 Author
+
+Kavin Sambasivam
+CodeAlpha C++ Programming Internship
+
+
