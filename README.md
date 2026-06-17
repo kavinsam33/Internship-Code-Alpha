@@ -86,4 +86,70 @@ Menu-driven programming
 Kavin Sambasivam
 CodeAlpha C++ Programming Internship
 
+# Banking System in C++
 
+## 📌 Project Description
+This project is a simple Banking Management System developed in C++ using Object-Oriented Programming concepts. It allows users to create accounts, deposit and withdraw money, transfer funds, and view transaction history.
+
+## 🚀 Features
+- Create and manage customer accounts
+- Deposit money
+- Withdraw money
+- Fund transfer between accounts
+- Check account balance
+- Store transaction history
+- Display customer and transaction details
+
+## 🛠 Technologies Used
+- C++
+- Object-Oriented Programming (Classes and Objects)
+- File Handling (Optional)
+
+## 📂 Classes Used
+
+### Customer Class
+Stores:
+- Customer ID
+- Customer Name
+- Phone Number
+
+### Account Class
+Stores:
+- Account Number
+- Balance
+
+### Transaction Class
+Stores:
+- Transaction Type
+- Amount
+- Date and Time
+
+## 📋 Menu Options
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Funds
+5. Check Balance
+6. View Transaction History
+7. Exit
+
+## 💻 Concepts Used
+- Classes and Objects
+- Encapsulation
+- Functions
+- Arrays/Vectors
+- File Handling
+- Exception Handling
+
+## 🎯 Learning Outcomes
+- Understanding OOP concepts in C++
+- Managing data using classes
+- Implementing real-world banking operations
+- Working with transaction records
+
+## 👨‍💻 Internship Task
+**Task 4 – Banking System**
+Submitted as part of the **CodeAlpha C++ Programming Internship**.
+
+## 📸 Output
+The program provides a menu-driven interface for performing banking operations and maintaining transaction records.
